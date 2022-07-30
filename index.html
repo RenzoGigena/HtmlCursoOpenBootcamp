@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"> // Etiqueta raiz
+<head>   // Etiqueta del head de la pagina, Info de la pagina para el navegador.
+    <title>Document</title>   // Nombre que aparece en el navegador (siempre relevante ya que google busca por este)
+</head>
+<body> // Etiqueta body para contenido de la pagina (VISIBLE)
+
+    <p>Atributo id para identificador unico de un elementos html </p>
+    <p>Atributo class para identificar un grupo de elementos html</p>
+    //ETIQUETAS DE informacion
+
+    <div>
+        Contenedor para dividir contenido para manejar secciones de la pagina.
+    </div>
+
+    <h1>Heading</h1> // Titulos 
+    <h2>Heading</h2> // Titulos -
+    <h3>Heading</h3> // Titulos --
+    <h4>Heading</h4> // Cada vez son mas pequeños.. Pero siempre son titulos, no solo Texto grande
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <hr> // Separacion con linea del texto
+
+    <p>Parrafo</p> //Aqui ponemos texto como un parrafo propio
+
+    <p>Otro Parrafo</p> // Se colocara en otra linea
+
+    <!--Comentarios que no aparecen en el navegador pero si en la inspeccion de los exploradores-->
+
+    <p>allalalalaa <br> <span>Este texto</span>  alalalalalla</p> //span sirve para seleccionar texto util en css y br para salto de linea
+
+    <a target="_blank"(esto hace que la pagina se abra en otra pestaña) href="Link de una web">Presiona el link</a> 
+    //Hiper vinculo para colocar links, se pueden referenciar etiquetas con el id y href="#id"
+
+    <img width="Ancho de la imagen" height="Alto de la imagen" src="Ruta o Link de la imagen"/>
+
+    //FORMULARIOS
+
+    <form action="/formulario" method="GET o POST"> // Sirven para recopilar informacion del usuario
+        <label for="nombre"(Vincula con un input) >nombre</label>
+        <input type="Tipo del dato que voy a recibir" id="nombre" name="Aqui va la llave para el servidor" 
+        placeholder="Aqui va texto dentro del input para facilitar su entendimiento"/> //recibir informacion
+        <br>
+        <textarea></textarea> // Utilidad similar a input, pero con un campo grafico mas grande como para un Comentarios
+        <br>
+        <input type="submit"> // al ser tipo submit envia el formulario donde corresponda
+        <input value="Aca pueden ir valores por defecto">
+        <br>
+        <button type="button(actua simplemente como boton,submit(envia el formulario),reset(resetea por defecto el formulario)"></button>  
+    </form>
+    // LISTAS
+
+    <ul> // Lista no ordenada ( unorder list )
+        <li></li>  //Elemento de Lista  ( list item )
+        <li></li> 
+        <li></li> 
+    </ul>
+    <ol> // Lista Ordenada ( order list )
+        <li></li> 
+        <li></li> 
+        <li></li> 
+    </ol>
+    
+    //TABLAS
+
+    <table>
+        <thead>
+            <tr>
+                <th></th> //columna cabezera
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td></td> //Elemento bajo cabezera
+            </tr>
+        </tbody>
+    </table>
+
+    // Secciones
+
+    <header>Informacion al comienzo de la pagina</header>
+    <section>Secciones de la pagina</section>
+    <article>informacion independiente</article>
+    <footer>Informacion al final de la pagina</footer>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+Html--->  Hypertext Markup Lenguage.
+Html es mantenido por --->WORLD WIDE WEB CONSORTIUM
+Html5test.com(Pagina para saber que funcionalidades soporta el navegador).
+
+Plugins para HTML:
+-open in browser(nos permite abrir el fichero en el navegador) 
+-html end tag labels
+-auto rename tag (renombra los cierres cuando se modifica la de apertura)
+-indent rainbow( identacion con color)
+-live server(refresca automaticamente el archivo en server local para mostrar cambios)
+-prettier (organiza el archivo)
