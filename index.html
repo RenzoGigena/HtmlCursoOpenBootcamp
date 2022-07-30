@@ -37,18 +37,28 @@
 
     //FORMULARIOS
 
-    <form action="/formulario" method="GET o POST"> // Sirven para recopilar informacion del usuario
+    <form action="/formulario"(redirecciona luego de hacer el submit) method="GET o POST"> // Sirven para recopilar informacion del usuario
         <label for="nombre"(Vincula con un input) >nombre</label>
-        <input type="Tipo del dato que voy a recibir" id="nombre" name="Aqui va la llave para el servidor" 
+        <input type="Tipo del dato que voy a recibir" id="nombre para identificar" name="Aqui va la llave para el servidor, para poder tomar la informacion" 
         placeholder="Aqui va texto dentro del input para facilitar su entendimiento"/> //recibir informacion
         <br>
         <textarea></textarea> // Utilidad similar a input, pero con un campo grafico mas grande como para un Comentarios
         <br>
-        <input type="submit"> // al ser tipo submit envia el formulario donde corresponda
-        <input value="Aca pueden ir valores por defecto">
+        <input type="submit"/> // al ser tipo submit envia el formulario donde corresponda
+        <input value="Aca pueden ir valores por defecto"/>
         <br>
-        <button type="button(actua simplemente como boton,submit(envia el formulario),reset(resetea por defecto el formulario)"></button>  
+        <button type="button(actua simplemente como boton,submit(envia el formulario),reset(resetea por defecto el formulario)" required(tienen que estar para enviar formularios)></button>  
     </form>
+
+    <p>
+        Tipos para input: 
+        email
+        password
+        number
+        date(fecha)
+        text
+    </p>
+
     // LISTAS
 
     <ul> // Lista no ordenada ( unorder list )
@@ -77,6 +87,15 @@
         </tbody>
     </table>
 
+    <table>
+        <tr>//table raw(fila)
+            <th></th>//table header(encabezado)
+        </tr>
+        <tr>
+            <td></td>//table data
+        </tr>
+    </table>
+
     // Secciones
 
     <header>Informacion al comienzo de la pagina</header>
@@ -86,3 +105,6 @@
 
 </body>
 </html>
+
+// ATRIBUTOS //
+Es informacion localizada en la etiqueta para interactuar o indetificarse de alguna manera.
